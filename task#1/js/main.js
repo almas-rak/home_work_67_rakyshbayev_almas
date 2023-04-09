@@ -16,7 +16,7 @@ function onClick(event) {
     input.value = 'Закрыть'
     input.style.height = '25px'
     div.append(input)  
-    container.append(div)
+    addBtn.parentNode.insertBefore(div, addBtn);
     setTimeout(() => {
         div.remove();
     }, 5000)
@@ -26,4 +26,3 @@ function onClick(event) {
 }
 
 addBtn.addEventListener('click', onClick)
-
