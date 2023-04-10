@@ -1,0 +1,98 @@
+html{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: rgb(67, 60, 102);
+}
+
+.bg-gradient{
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(68,68,117,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar{
+    width: 100%;
+    padding: 20px;
+}
+
+.navbar-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: inherit;
+}
+
+.navbar-brand{
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+}
+
+.navbar-logo{
+    height: 50px;
+    width: 200px;
+    background-color: inherit;
+    
+}
+
+
+.image-logo{
+    width: 100%;
+    height: 100%;
+    background-color: inherit;  
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card{
+    margin: 15px;
+    width: 250px;
+    height: 350px;
+    border: solid black 1px;
+    border-radius: 5px;
+}
+
+.container-image{
+    width: 250px;
+    height: 250px;
+}
+
+.image-card{
+    width: 100%;
+    height: 100%;
+}
+
+.text-card{
+    text-align: center;
+    margin: 10px;
+    
+}
+
+
+.character{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.character-text{
+    margin: 5px 0;
+}
